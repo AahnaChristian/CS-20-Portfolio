@@ -1,4 +1,4 @@
-// Anime Website by Aahna [Trial #3]
+// Anime Website by Aahna [Trial #6]
 
 let animecharEl = document.getElementById('animecharacters');
 
