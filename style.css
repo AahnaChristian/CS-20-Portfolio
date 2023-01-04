@@ -1,0 +1,66 @@
+#search {
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    margin-bottom: 20px;
+}
+
+.anime {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#animecharacters {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+
+.disanimename {
+    padding: 15px;
+}
+
+.icon {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    font-size: 12px;
+    cursor: pointer;
+    float: right;
+}
+
+.icon:hover {
+    background-color: RoyalBlue;
+}
+
+.sidepanel {
+    width: 0;
+    position: fixed;
+    height: 100px;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+.sidepanel a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #96abe5;
+    display: block;
+}
+
+.sidepanel .closepanel {
+    position: absolute;
+    right: 25px;
+    font-size: 25px;
+    color: rgb(137, 226, 238);
+}
+
+.openbtn {
+    font-size: 10px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+}
